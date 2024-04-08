@@ -1,8 +1,32 @@
-* {
-    background-color: rgb(151, 194, 231);
-    color: rgb(173, 11, 24);
+body {
+    background-color: #31363F;
+    color: white;
+    font-family: arial, Courier, monospace;
     font-size: 35px;
 }
-.center {
+.title {
     text-align: center;
+    font-size: 35px;
+    width: 250px;
+    padding: 8px;
+    margin: auto;
+    border: 3px solid #76ABAE;
+    background-color: #31363F;
+}
+.body {
+    list-style-type: none;
+    padding: 0px;
+    width: 180px;
+    text-align: center;
+    border: 3px solid #76ABAE;
+    background-color: #31363F;
+}
+a:visited {
+    color:white;
+}
+div {
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    background-color: #31363F;
 }
